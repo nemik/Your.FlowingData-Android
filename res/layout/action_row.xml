@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@layout/row_shape"
+    android:padding="4px">
+	<TextView android:id="@+id/text1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="3dip"
+    android:textSize="30dip"
+    android:textColor="#E8E8E8"/>
+</LinearLayout>

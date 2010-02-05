@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Your.FlowingData Android</string>
+    <string name="no_actions">No Actions</string>
+    <string name="menu_insert">Add Action</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="net.nemik.yourflowingdata" android:versionCode="1"
+	android:versionName="1.0">
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name=".YFDMain" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW"></action>
+				<category android:name="android.intent.category.DEFAULT"></category>
+				<category android:name="android.intent.category.BROWSABLE"></category>
+				<data android:scheme="YFD" android:host="twitter"></data>
+			</intent-filter>
+		</activity>
+
+	</application>
+	<uses-sdk android:minSdkVersion="3" />
+	<uses-permission android:name="android.permission.INTERNET" />
+
+</manifest> 

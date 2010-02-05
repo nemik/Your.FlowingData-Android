@@ -1,0 +1,10 @@
+Your.FlowingData for Android is an Android application for making submission to http://your.flowingdata.com easier.
+
+It uses the Twitter OAuth API to authenticate you with Twitter. Be sure you have an account on http://your.flowingdata.com to use this app.
+
+The app is very simple. Just add new 'actions' that you plan to submit. Hold your finger on one for a menu to pop up. From this menu, you can delete the action or submit it to YFD. If you format your action like 'ate %d turtles' then the '%d' will be replaced by some input text that you can enter. This makes submitting actions with some quantities easier.
+
+Enjoy!
+
+
+I made this app in one day, so it could have many bugs. There are some improvements I would like to make as time permits, such as being able to re-order the actions and maybe save ones that you tried to send when no internet connection was available. But also please offer up any suggestions.
